@@ -1,0 +1,53 @@
+{
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "files.autoSave": "onFocusChange",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "emmet.includeLanguages": {
+    "ejs": "html"
+  },
+  "html.format.wrapAttributes": "auto",
+  "html.format.wrapLineLength": 0, // Skip breaking the lines if they get too long in html. Source: https://stackoverflow.com/questions/56112054/how-to-prevent-vs-code-from-breaking-up-long-html-lines-into-multiple-lines
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "html.format.enable": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "python.showStartPage": false,
+  "python.languageServer": "Pylance",
+  "editor.renderWhitespace": "none",
+  "workbench.colorTheme": "GitHub Dark",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.minimap.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.copyWithSyntaxHighlighting": false,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "python.defaultInterpreterPath": "/usr/bin/python3",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "omnisharp.useModernNet": false,
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
+  "editor.lineNumbers": "relative",
+  "window.zoomLevel": 1
+}

@@ -1,0 +1,11 @@
+#!/bin/zsh
+
+echo "Install Xcode CLI tools"
+xcode-select --install
+
+echo "Install Homebrew"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+echo "Install Ansible and Ansible lint"
+brew install ansible
+brew install ansible-lint
