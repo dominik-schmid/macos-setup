@@ -1,0 +1,96 @@
+# Install these tools via Ansible
+- name: Install basic tools
+  hosts: localhost
+  become: false # false = admin rights aren't required
+  tasks:
+    - name: Install zsh-autosuggestions
+      community.general.homebrew:
+        name: zsh-autosuggestions
+    - name: Install zsh-syntax-highlighting
+      community.general.homebrew:
+        name: zsh-syntax-highlighting
+    - name: Install coreutils
+      community.general.homebrew:
+        name: coreutils
+    - name: Install n (node package manager)
+      community.general.homebrew:
+        name: n
+    - name: Install starship (terminal prompt)
+      community.general.homebrew:
+        name: starship
+    - name: Install rectangle (window manager)
+      community.general.homebrew:
+        name: rectangle
+    - name: Install tmux
+      community.general.homebrew:
+        name: tmux
+    - name: Install neovim
+      community.general.homebrew:
+        name: neovim
+    - name: Install iterm2
+      community.general.homebrew:
+        name: iterm2
+    - name: Install fzf
+      community.general.homebrew:
+        name: fzf
+    - name: Install pyenv
+      community.general.homebrew:
+        name: pyenv
+    - name: Install sccache
+      community.general.homebrew:
+        name: sccache
+    - name: Install exa
+      community.general.homebrew:
+        name: exa
+    - name: Install hey
+      community.general.homebrew:
+        name: hey
+    - name: Install k6
+      community.general.homebrew:
+        name: k6
+    - name: Install tree
+      community.general.homebrew:
+        name: tree
+    - name: Install tree-sitter
+      community.general.homebrew:
+        name: tree-sitter
+    - name: Install go
+      community.general.homebrew:
+        name: go
+    - name: Install jq
+      community.general.homebrew:
+        name: jq
+    - name: Install yq
+      community.general.homebrew:
+        name: yq
+    - name: Install httpie
+      community.general.homebrew:
+        name: httpie
+    - name: Install gnupg
+      community.general.homebrew:
+        name: gnupg
+
+    - name: Install alfred
+      community.general.homebrew_cask:
+        name: alfred
+    - name: Install docker
+      community.general.homebrew_cask:
+        name: docker
+    - name: Install visual-studio-code
+      community.general.homebrew_cask:
+        name: visual-studio-code
+    - name: Install utm
+      community.general.homebrew_cask:
+        name: utm
+    - name: Install firefox
+      community.general.homebrew_cask:
+        name: firefox
+    - name: Install postman
+      community.general.homebrew_cask:
+        name: postman
+    - name: Install tower
+      community.general.homebrew_cask:
+        name: tower
+    - name: Install obsidian
+      community.general.homebrew_cask:
+        name: obsidian

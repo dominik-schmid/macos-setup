@@ -1,0 +1,25 @@
+shell:
+  program: "/Users/dominik/.cargo/bin/nu"
+  args:
+    - "--login"
+#   # program: "~/.cargo/bin/zellij"
+#   program: "/Users/dominik/.cargo/bin/zellij"
+#   args:
+#     - options
+#     - --default-shell
+#     - nu
+
+window:
+  dimensions:
+    columns: 130
+    lines: 35
+  position:
+    x: 0
+    y: 0
+  title: Pro@Work
+  decorations: none
+
+font:
+  normal:
+    family: MesloLGS Nerd Font Mono
+  size: 16.0

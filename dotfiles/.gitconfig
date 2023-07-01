@@ -1,0 +1,17 @@
+[user]
+	name = dominik-schmid
+	email = accounts@dominik-schmid.com
+	signingkey = D590C24E7A3AC571
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[core]
+	excludesfile = /Users/dominik/.gitignore
+[init]
+	defaultBranch = development
+[commit]
+	gpgsign = true
+[gpg]
+	program = /usr/local/bin/gpg
