@@ -69,7 +69,9 @@
     - name: Install gnupg
       community.general.homebrew:
         name: gnupg
-
+    - name: Install fd
+      community.general.homebrew:
+        name: fd
     - name: Install alfred
       community.general.homebrew_cask:
         name: alfred
