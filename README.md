@@ -27,3 +27,9 @@ Create a cron job to execute the update script for Homebrew, Rust and pyenv
 - Copy/move `~/data/` folder to new Mac.
 - Copy the Preferences of Alfred to `~/.config/Alfred/`
 - Check if my books in the Books App are imported via iCloud
+
+# Why I Chose to Use Ansible Over Only Shell Scripts
+
+- Ansible playbooks are (kinda) idempotent and provide error handling out of the box.
+- It's possible to encrypt files with Ansible Vault and store them in a repo, though I'm not doing that at the moment.
+- I can create multiple Ansible playbooks and tag the steps, i.e. with "personal" or "work", and let Ansible only execute the necessary steps. It's also possible to easily imported other playbooks and therefore make the management of complex scripts/playbooks easier.
