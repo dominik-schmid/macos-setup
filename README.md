@@ -24,6 +24,6 @@ Create a cron job to execute the update script for Homebrew, Rust and pyenv
 
 ## To Do After Setup
 
-- Copy/move data folder to new Mac.
+- Copy/move `~/data/` folder to new Mac.
 - Copy the Preferences of Alfred to `~/.config/Alfred/`
 - Check if my books in the Books App are imported via iCloud
