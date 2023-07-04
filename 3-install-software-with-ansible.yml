@@ -18,18 +18,12 @@
     - name: Install starship (terminal prompt)
       community.general.homebrew:
         name: starship
-    - name: Install rectangle (window manager)
-      community.general.homebrew:
-        name: rectangle
     - name: Install tmux
       community.general.homebrew:
         name: tmux
     - name: Install neovim
       community.general.homebrew:
         name: neovim
-    - name: Install iterm2
-      community.general.homebrew:
-        name: iterm2
     - name: Install fzf
       community.general.homebrew:
         name: fzf
@@ -69,12 +63,24 @@
     - name: Install gnupg
       community.general.homebrew:
         name: gnupg
+    - name: Install pinentry-mac
+      community.general.homebrew:
+        name: pinentry-mac
     - name: Install fd
       community.general.homebrew:
         name: fd
     - name: Install alfred
       community.general.homebrew_cask:
         name: alfred
+    - name: Install google-chrome
+      community.general.homebrew_cask:
+        name: google-chrome
+    - name: Install rectangle (window manager)
+      community.general.homebrew_cask:
+        name: rectangle
+    - name: Install iterm2
+      community.general.homebrew_cask:
+        name: iterm2
     - name: Install docker
       community.general.homebrew_cask:
         name: docker
