@@ -12,3 +12,9 @@
     - name: Install macfuse
       community.general.homebrew_cask:
         name: macfuse
+    - name: Install protonmail-bridge
+      community.general.homebrew_cask:
+        name: protonmail-bridge
+    - name: Install kaleidoscope
+      community.general.homebrew_cask:
+        name: kaleidoscope
