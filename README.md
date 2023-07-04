@@ -14,6 +14,14 @@ git clone https://github.com/dominik-schmid/macos-setup.git
 
 Execute one script after the other. Execute the Ansible playbooks for the private and office Mac accordingly.
 
+When opening Neovim for the first time you'll receive a few errors. That is normal and ok. You need to install the plugins with
+
+```
+:PlugInstall
+```
+
+to install all plugins and get rid of the errors.
+
 ## Recurring Tasks
 
 Create a cron job to execute the update script for Homebrew, Rust and pyenv
