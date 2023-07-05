@@ -1,7 +1,7 @@
 [user]
 	name = dominik-schmid
-	email = accounts@dominik-schmid.com
-	signingkey = D590C24E7A3AC571
+	email = contact@dominik-schmid.com
+	signingkey = 47A3A1DB8E6FBFCEC69478CB0A7BE8171252D704
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
@@ -14,4 +14,7 @@
 [commit]
 	gpgsign = true
 [gpg]
-	program = /usr/local/bin/gpg
+	program = /opt/homebrew/bin/gpg
+	format = openpgp
+[mergetool]
+	keepBackup = true
