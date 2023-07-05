@@ -5,3 +5,7 @@ rsync -av --progress dotfiles/ ~
 
 echo "Reload .zshrc"
 source ~/.zshrc
+
+echo "Create an empty folder where n (node package manager) can install Node"
+mkdir -p ~/.local/n
+
