@@ -15,6 +15,9 @@
     - name: Install protonmail-bridge
       community.general.homebrew_cask:
         name: protonmail-bridge
-    - name: Install kaleidoscope
+    - name: Install whatsapp
       community.general.homebrew_cask:
-        name: kaleidoscope
+        name: whatsapp
+    - name: Install parallels
+      community.general.homebrew_cask:
+        name: parallels
