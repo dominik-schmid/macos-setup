@@ -102,3 +102,6 @@
     - name: Install obsidian
       community.general.homebrew_cask:
         name: obsidian
+    - name: Install kaleidoscope
+      community.general.homebrew_cask:
+        name: kaleidoscope
