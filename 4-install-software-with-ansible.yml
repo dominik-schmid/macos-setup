@@ -90,6 +90,9 @@
     - name: Install utm
       community.general.homebrew_cask:
         name: utm
+    - name: Install aria2
+      community.general.homebrew:
+        name: aria2
     - name: Install firefox
       community.general.homebrew_cask:
         name: firefox
