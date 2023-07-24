@@ -33,7 +33,7 @@ Create a cron job to execute the update script for Homebrew, Rust and pyenv
 ## To Do After Setup
 
 - Copy/move `~/data/` folder to new Mac.
-- Copy the Preferences of Alfred to `~/.config/Alfred/`
+- Copy the Preferences of Alfred to `~/.config/Alfred/` and configure Alfred to use this location.
 - Check if my books in the Books App are imported via iCloud
 
 # Why I Chose to Use Ansible Over Only Shell Scripts
