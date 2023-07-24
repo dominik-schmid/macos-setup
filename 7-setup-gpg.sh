@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 echo ""
 echo "Generate new GPG keys for git commit signing"
 echo "If you need further information please visit: https://docs.github.com/de/authentication/managing-commit-signature-verification/generating-a-new-gpg-key"
