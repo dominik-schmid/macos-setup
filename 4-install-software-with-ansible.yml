@@ -6,6 +6,9 @@
     - name: Install zsh-autosuggestions
       community.general.homebrew:
         name: zsh-autosuggestions
+    - name: Install zsh-completions
+      community.general.homebrew:
+        name: zsh-completions
     - name: Install zsh-syntax-highlighting
       community.general.homebrew:
         name: zsh-syntax-highlighting
