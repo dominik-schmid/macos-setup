@@ -69,9 +69,15 @@
     - name: Install fd
       community.general.homebrew:
         name: fd
+    - name: Install grep
+      community.general.homebrew:
+        name: grep
     - name: Install ripgrep
       community.general.homebrew:
         name: ripgrep
+    - name: Install gnu-sed
+      community.general.homebrew:
+        name: gnu-sed
     - name: Install alfred
       community.general.homebrew_cask:
         name: alfred
