@@ -108,9 +108,12 @@
     - name: Install firefox
       community.general.homebrew_cask:
         name: firefox
-    - name: Install postman
-      community.general.homebrew_cask:
-        name: postman
+    # - name: Install postman
+    #   community.general.homebrew_cask:
+    #     name: postman
+    # - name: Install insomnia
+    #   community.general.homebrew_cask:
+    #     name: insomnia
     - name: Install tower
       community.general.homebrew_cask:
         name: tower
