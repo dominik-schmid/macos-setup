@@ -125,4 +125,4 @@
         name: obsidian
     - name: Install kaleidoscope
       community.general.homebrew_cask:
-        name: kaleidoscope
+        name: kaleidoscope@3
