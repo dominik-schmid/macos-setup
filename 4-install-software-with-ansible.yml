@@ -84,6 +84,12 @@
     - name: Install cmake
       community.general.homebrew:
         name: cmake
+    - name: Install bruno
+      community.general.homebrew:
+        name: bruno
+    - name: Install fd
+      community.general.homebrew:
+        name: fd
     - name: Install alfred
       community.general.homebrew_cask:
         name: alfred
