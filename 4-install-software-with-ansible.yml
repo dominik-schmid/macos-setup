@@ -81,6 +81,9 @@
     - name: Install gnu-sed
       community.general.homebrew:
         name: gnu-sed
+    - name: Install cmake
+      community.general.homebrew:
+        name: cmake
     - name: Install alfred
       community.general.homebrew_cask:
         name: alfred
