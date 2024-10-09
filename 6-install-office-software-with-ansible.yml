@@ -9,3 +9,6 @@
     - name: Install git-flow-avh
       community.general.homebrew:
         name: git-flow-avh
+    - name: Install dbeaver
+      community.general.homebrew_cask:
+        name: dbeaver-community
